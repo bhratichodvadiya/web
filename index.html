@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Navbar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div><img class="logo-nav" src="./assets/logo.jpg"></div>
+        <nav>
+            <ul id="myNav" class="overlay-content">
+                <li><a href="#">Home</a></li>
+                <li><a href="#container">About</a></li>
+                <li><a href="#MyProjects">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="join-now"><a href="#">Join Now</a></button></li>
+            </ul>
+            <span class="menu-icon" onclick="openNav()"><img class="icon" width="30px" src="assets/menu (2).png"></span>
+        </nav>
+    </header>
+
+    <script>
+        function openNav() {
+            var x = document.getElementById("myNav");
+            if (x.className === "overlay-content") {
+                x.className += " active";
+            } else {
+                x.className = "overlay-content";
+            }
+        }
+
+    </script>
+    <!-- <script>
+        let menuList = Document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+        function mytoggle() {
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "300px"
+            } else {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script> -->
+    <div id="video-container" style="background-color: black;">
+        <video id="video" autoplay muted loop>
+            <source src="./Small clip of cattle video from GoPro.mp4" type="video/mp4">
+        </video>
+    </div>
+    </div>
+    <section class="trusted-section">
+        <div class="containers">
+            <h2 style="color: white; font-weight: 400;">Our team is trusted by:</h2>
+            <div class="trusted-logos">
+                <img style="width: 80px;" src="./assets/image_p_1.png" alt="Logo 1">
+                <img style="width: 200px;" src="./assets/image_p_2.png" alt="Logo 2">
+                <img style="width: 200px;" src="./assets/image_p_3.png" alt="Logo 3">
+                <img style="width: 200px;" src="./assets/image_p_4.png" alt="Logo 3">
+            </div>
+        </div>
+    </section>
+    <section class="introduction-section">
+        <div class="container">
+            <div class="content">
+                <div class="txt1">
+                    <h2 style="color: white; text-align: start;">Introduction:</h2>
+                    <p> Each year, the cattle industry in the US hemorrhages over $100 billion due to treatment costs,
+                        lost revenue from sick cattle, antibiotic overuse, deaths, and greenhouse gas emissions. Beyond
+                        the US borders, the situation is equally critical, exacerbating the global impact of these
+                        challenges.
+                        The unpredictability of cattle sickness poses a significant challenge. By the time it's
+                        detected, the infection spreads throughout the ranch and contaminated products shipped out. This
+                        not only risks harm to consumers but also tarnishes the brand's reputation when recalls occur,
+                        impacting quality perception.
+                        To address this issue, many ranches administer antibiotics to all incoming calves, regardless of
+                        need, leading to antibiotic overuse, detrimental to human health.
+                        Additionally, sick animals emit more methane, exacerbating greenhouse gas emissions. Prolonged
+                        sickness in animals only amplifies methane production, compounding environmental concerns.
+                    </p>
+                    <p><strong>Sector:</strong> Internet of Things</p>
+                </div>
+                <div class="intro_image">
+                    <img src="./assets/introduction section img/image_i_1.png" alt="Image">
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="intro_image2">
+                    <img src="./assets/daigram.jpg" alt="Image">
+                </div>
+                <div class="Txt">
+                    <p> MyAnIML offers comprehensive solutions spanning from cattle entry to daily maintenance,
+                        ensuring proactive management. With early notifications, typically 2-3 days in advance,
+                        ranchers can isolate soon-to-be-sick cattle, significantly reducing treatment expenses,
+                        minimizing antibiotic usage, and preventing deaths.
+                        Swift isolation of sick cattle prevents disease transmission to other animals, facilitating
+                        prompt treatment and faster recovery. This not only reduces
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class=" container">
+        <div class="content">
+            <div class=" txtdata">
+                <p>The links to the key info are below,but if
+                    you would like to speak further -feel free
+                    to book a meeting with our CEO & Co-Founder.
+                    For data room access, please email Toby.</p>
+            </div>
+            <div class=" textdetail">
+                <h3>Funding round information:</h3>
+                <p>$2M at $10M Valuation</p>
+            </div>
+            <div class=" container" style="margin-left: 5%;">
+                <p> We are backed by:</p>
+                <img width="260" src="assets/image_p_3.png" alt="case">
+            </div>
+    
+        </div>
+    </div>
+</section>
+</section>
+<div class="con">
+    <div class="content">
+        <div class=" adddata">
+            <h3 style="text-align: left; width: 60%; font-size: 18px;">Toby Wilmington </h3>
+                <p><a style="color: black;" href="founders@myaniml.com ">
+                        <p style="font-size:  medium; ">founders@myaniml.com
+                    </a></p>
+                <number>+44 77845 68376 </number>
+                    <p><a href="https://www.linkedin.com/in/shekharguptaprofile/"> <img
+                                style="width: 50px;  padding-right: 10px;  margin-bottom: 120px;"
+                                src="./assets/LinkedIn.png" alt="LinkedIn"></a></p>
+        </div>
+        <div class="prodetail">
+            <img style="width: 150px;  border-radius: 50%; " src="./assets/Toby.png" alt="Toby">
+                <a href="#" class="button" style="font-size: 20px; margin-bottom: 90px; text-align: center;">Book
+            Metting</a>
+        </div>
+        <div class=" container" style="margin-left: 5%; margin-bottom: 150px;">
+            <h2>Status:</h2>
+            <img style="padding-bottom: 50px;"  width="200" src="./assets/Group 2 (1).png" alt="case">
+        </div>
+
+    </div>
+</div>
+</section>
+<!-- <section>
+    <div class=" container">
+        <div class="content ">
+            <div class=" text">
+                <h3 style="text-align: left; width: 100%;">Toby Wilmington </h3>
+                <p><a style="color: black;" href="founders@myaniml.com ">
+                        <p style="font-size:  medium; ">founders@myaniml.com
+                    </a></p>
+                <number>+44 77845 68376 </number>
+                    <p><a href="https://www.linkedin.com/in/shekharguptaprofile/"> <img
+                                style="width: 50px;  padding-right: 10px;  margin-bottom: 120px;"
+                                src="./assets/LinkedIn.png" alt="LinkedIn"></a></p>
+                     <p><a href="https://twitter.com/myaniml"> <img width="50px%" style="padding-right: 50%;"
+                                        src="assets/twitter.png" alt="case"></a></p> -->
+                                    <!-- </div>
+
+                                  
+   
+
+                                    <div class=" textdetail">
+                                        <h3>Funding round information:</h3>
+                                        <p>$2M at $10M Valuation</p>
+                                    </div>
+                                    <div class=" container" style="margin-left: 5%;">
+                                        <p> We are backed by:</p>
+                                        <img width="260" src="assets/image_p_3.png" alt="case">
+                                    </div> -->
+
+            <!-- <div class=" container" style="padding-right: 10%;">
+                <img style="width: 160px;  border-radius: 50%; " src="./assets/Toby.png" alt="Toby">
+                <a href="#" class="button" style="font-size: 20px; margin-bottom: 90px; text-align: center;">Book
+                    Metting</a>
+            </div>
+            <div class="corners1" style="padding-right: 40%;">
+                <h1>Status:</h1>
+                <img style="padding-bottom: 50px;"  width="200" src="./assets/Group 2 (1).png" alt="case">
+
+            </div>
+        </div> 
+
+    </div>
+    </div>
+</section> -->
+    <div class="box">
+        <svg viewBox="0 0 5897 1278" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 739.5V1277H2883.46H5896V1C3287 840 412.5 739.5 1 739.5Z" fill="Black" stroke="black" />
+        </svg>
+    </div>
+
+
+
+    <section class="introduction-section">
+        <div class="containe">
+            <h2 style="color: white; font-size: 40px;">Links:</h2>
+
+            <div class="mnb">
+
+                <div class="tutorial">
+                    <img width="60px" style="align-items: start;" src="./assets/teacher.png" alt="case">
+                    <p style="color: black; font-size: 18px; ">TEASER DECK.
+                    <p><a href="https://drive.google.com/file/d/1w--g4P71VYwzONKLBTC9AOqXGBiVLipg/view?usp=sharing">
+                            <b class="Boxbutton" style="text-align: center;">Click here</b>
+                        </a>
+
+                </div>
+
+
+                <div class="tutorial">
+                    <img width="60px" style="align-items: start;" src="./assets/play-button.png" alt="case">
+                    <p style="color: black; font-size:  18px;">PITCH VIDEO.</p>
+
+                    <p><a href="https://youtu.be/CxKZo-rt9Uc">
+                            <b class="Boxbutton " style="text-align: center;">Watch Now</b>
+                        </a></p>
+
+                </div>
+                <div class="tutorial">
+                    <img width="60px" style="align-items: start;" src="./assets/play-button.png" alt="case">
+                    <p style="color: black; font-size: 18px;">DEMO VIDEO.</p>
+
+                    <p><a href="https://youtu.be/ILJ86Hr6FD8">
+                            <b class="Boxbutton" style="text-align: center;">Watch Now</b>
+                        </a></p>
+                </div>
+
+                <div class="tutorial">
+                    <img width="60px" style="align-items: start;" src="./assets/trend.png" alt="case">
+
+                    <p style="color: black;  font-size: 18px;">USD VALIDATION</p>
+
+                    <p><a href="- https://www.ars.usda.gov/research/publications/publication/?seqNo115=408237">
+                            <b class="Boxbutton" style="text-align: center;">Click here</b>
+                        </a></p>
+
+                </div>
+
+                <div class="tutorial">
+                    <img width="60px" style="align-items: start;" src="./assets/network.png" alt="case">
+                    <p style="color: black;  font-size: 18px;">CASE STUDY</p>
+
+                    <p><a href="https://myaniml.com/Kansas_Rancher_Installs_MyAnIML_to_Save.pdf">
+                            <b class="Boxbutton" style="text-align: center;">Click here</b>
+                        </a></p>
+
+                </div>
+
+                <div class="tutorial">
+                    <img width="60px" style="align-items: start;" src="./assets/stack-of-books.png" alt="case">
+                    <p style="color: black;  font-size: 18px;">DATA ROOM</p>
+
+                    <p><a href="https://youtu.be/ILJ86Hr6FD8">
+                            <b class="Boxbutton" style="text-align: center;">Invite only</b>
+                        </a></p>
+
+                </div>
+            </div>
+        </div>
+        <div style="height: 40px;">
+
+        </div>
+        </div>
+    </section>
+    <section class="Funding-round-information">
+        <div class="container">
+            <div style="margin-top: 80px;">
+            </div>
+            <div class="text">
+                <h2 style="color: black; font-size: 40px; font-weight: 300;">FAQs:</h2>
+                <b>Here are some frequently asked questions to help you with your initial due
+                    diligence and information
+                    gathering:</b>
+                <hr>
+                <b class="accordion">How does MyAnIML tech work?</b>
+                <div class="panel">
+                    <p> We take a picture or video of a cattle’s face. Our system analyzes the face and muzzle<br> (nose
+                        print) and measures any subtle changes. It uses our proprietary dataset to analyze and<br>
+                        measure changes and informs ranch manager. </p>
+                </div>
+                </hr>
+                <hr>
+                <b class="accordion">Why muzzle?</b>
+                <div class="panel">
+                    <p>Muzzle is very unique much like our fingerprints, and no two are alike. In our research, we have
+                        found that muzzle shows changes before cattle is symptomatic. </p>
+                    <p>There are other companies providing disease information as well. How are you different from
+                        others? </p>
+                    <p>While other companies detect sickness only after cattle are already infected and spreading
+                        disease, our approach predicts symptoms 2-3 days in advance, before disease transmission begins.
+                        By intervening earlier, we prevent disease spread, setting us apart in safeguarding animal
+                        health and preventing outbreaks. </p>
+                </div>
+                </hr>
+                <hr>
+                <b class="accordion">How are you providing notification?</b>
+                <div class="panel">
+                    <p> We send a notification via email with sick cattle’s ear tag number. We also provide Bluetooth
+                        tags with an app for the rancher to view the tag number in the app and go directly to the cattle
+                        instead of reading each tag to get to that soon to be sick cattle. </p>
+                </div>
+
+                </hr>
+
+                <hr>
+                <b class="accordion">What diseases do you provide notifications on?</b>
+                <div class="panel">
+                    <p> Currently we only do sick vs. healthy. We have just one disease pinkeye in our dataset with
+                        99.4% accuracy, however we need another disease before we can start differentiating among
+                        diseases. We are working on BRD (bovine respiratory disease) dataset at this time. We are close
+                        to 70% accuracy and when we get to high 90s accuracy then we can start providing disease
+                        specific notifications. </p>
+                </div>
+
+                </hr>
+
+                <hr>
+                <b class="accordion">Did you raise pre-seed funding?</b>
+                <div class="panel">
+                    <p>Yes. We generated via SAFE note with $3M cap.</p>
+                </div>
+
+                </hr>
+                <hr>
+                <b class="accordion">What will you do with the seed funding?</b>
+                <div class="panel">
+                    <p>We need to develop our GTM product. Currently we are using GoPros on a feeder truck and it
+                        requires WiFi to upload videos. There are many ranches with no wifi and very little cellular
+                        coverage. Our GTM product will be an edge product that wouldn’t require any connectivity to the
+                        cloud. It will take pictures on the spot and provide notifications on the spot. It can be
+                        mounted on any place in a ranch such as water source, by the chute, and/or by the animal
+                        offloading area. </p>
+                    <p>The seed fund will be spent to develop this product and hire installation and sales team to
+                        install and build more relationships. </p>
+                </div>
+
+                </hr>
+                <hr>
+                <b class="accordion">Do you have any 3rd party validation? </b>
+                <div class="panel">
+                    <p>Yes, we worked with USDA to develop validation of our tech. Please see the link above. </p>
+                </div>
+
+                </hr>
+                <hr>
+                <b class="accordion">What is the long term vision? </b>
+                <div class="panel">
+                    <p>In addition to BRD, we intend to go after Pasteurella, Estrous, Mastitis and Ketosis among
+                        others. We also intend to launch the product to other livestock animals. </p>
+                </div>
+
+                </hr>
+
+                <hr>
+                <b class="accordion">How are you protecting your technology?</b>
+                <div class="panel">
+                    <p>We are the only ones using face and muzzle to predict diseases. We have filed two patents that
+                        cover placing cameras at various locations and taking videos/pictures for health reasons. Both
+                        of these patents cover processes so no one else can use any other process to do the same. </p>
+                </div>
+
+                </hr>
+                <hr>
+
+                </hr>
+
+                <script>
+                    var acc = document.getElementsByClassName("accordion");
+                    var i;
+
+                    for (i = 0; i < acc.length; i++) {
+                        acc[i].addEventListener("click", function () {
+                            this.classList.toggle("active");
+                            var panel = this.nextElementSibling;
+                            if (panel.style.maxHeight) {
+                                panel.style.maxHeight = null;
+                            } else {
+                                panel.style.maxHeight = panel.scrollHeight + "px";
+                            }
+                        });
+                    }
+                </script>
+            </div>
+            <div style="margin-bottom: 80px;"></div>
+
+    </section>
+    <script src="./script.js"></script>
+
+    <section class="bottom-section">
+        <div class="container">
+            <h2 style="color: white;">Follow:</h2>
+            <div class="bottom-logos">
+
+                <div class=" content2">
+                    <a href="- https://www.linkedin.com/company/myaniml/"><img src="assets/LinkedIn.png" alt="case"></a>
+                    <a href="https://twitter.com/myaniml"> <img src="assets/twitter.png" alt="case"></a>
+                </div>
+
+                <img src="assets/Cyber.png" alt="case">
+                <img src="assets/image_p_3.png" alt="case">
+                <img src="assets/IoTSF.png" alt="case">
+
+                <div class="text">
+                    <tr>
+                        <p class="email" style="color: white;"> (Right side)<br> 13725 Metcalf Avenue
+                            #501<br>
+                            Overland Park, KS 66223
+                        </p>
+                    </tr>
+                    <p><a style="color: white;" href="founders@myaniml.com ">
+                            <p class="email"><strong style="color:white;">
+                                    Email:</strong>founders@myaniml.com
+                        </a></p>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- <section class="introduction-section">
+        <div class="container">
+            <div class="text">
+                <h2 class="h2">Follow:</h2>
+            </div>
+            <div class=" trusted-logos">
+                
+                <div class="logo-bot">
+                    <div class=" content2">
+                        <a href="- https://www.linkedin.com/company/myaniml/" style="padding-right: 20px; "><img
+                                     src="assets/LinkedIn.png" alt="case"></a>
+                        <a href="https://twitter.com/myaniml"> <img src="assets/twitter.png"
+                                    alt="case"></a>
+                    </div>
+                    
+                    <img   src="assets/Cyber.png" alt="case">
+                    <img   src="assets/image_p_3.png" alt="case">
+                    <img   src="assets/IoTSF.png" alt="case">
+                </div>
+                    <div class="text">
+                        <tr>
+                            <p class="email"> (Right side)<br> 13725 Metcalf Avenue
+                                #501<br>
+                                Overland Park, KS 66223
+                            </p>
+                        </tr>
+                        <p><a style="color: white;" href="founders@myaniml.com ">
+                                <p class="email"><strong style="color:white;">
+                                        Email:</strong>founders@myaniml.com
+                            </a></p>
+
+                  
+                    </div>
+
+                </div>
+
+    </section> -->
+</body>
+
+</html>
